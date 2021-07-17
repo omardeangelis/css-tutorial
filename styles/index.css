@@ -66,3 +66,19 @@ h1 ~ h2 {
 #nav-list li > a {
   color: cornflowerblue;
 }
+
+h1[name="titolo"] {
+  color: burlywood;
+}
+
+img[src^="images/"] {
+  border: 10px solid black;
+}
+
+img[src$=".png"] {
+  border-radius: 50%;
+}
+
+img[src*="logo"] {
+  border-color: chartreuse;
+}
