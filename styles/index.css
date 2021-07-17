@@ -6,8 +6,16 @@ p {
   color: green;
 }
 
+/* p {
+  color: blue;
+} */
+
 .red-text {
   color: red;
+}
+
+#primo-paragrafo {
+  color: gray;
 }
 
 #best-blog-caption {
