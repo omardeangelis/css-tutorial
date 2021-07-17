@@ -27,17 +27,17 @@ p {
   font-size: 30px;
 }
 
-li:first-child {
+/* li:first-child {
   color: deepskyblue;
 }
 
 li:last-child {
   color: purple;
-}
+} */
 
-li:nth-child(2) {
+/* li:nth-child(2) {
   color: orangered;
-}
+} */
 
 .about-link:link {
   color: green;
@@ -45,4 +45,24 @@ li:nth-child(2) {
 
 .about-link:visited {
   color: peru;
+}
+
+h1 + h2 {
+  color: purple;
+}
+
+h1 ~ h2 {
+  color: aqua;
+}
+
+#nav-list > li {
+  color: brown;
+}
+
+#nav-list li {
+  color: cornflowerblue;
+}
+
+#nav-list li > a {
+  color: cornflowerblue;
 }
