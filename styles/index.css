@@ -1,0 +1,84 @@
+body {
+  background-color: unset;
+}
+
+p {
+  color: green;
+}
+
+/* p {
+  color: blue;
+} */
+
+.red-text {
+  color: red;
+}
+
+#primo-paragrafo {
+  color: gray;
+}
+
+#best-blog-caption {
+  color: slateblue;
+}
+
+#best-blog-caption:hover {
+  color: red;
+  font-size: 30px;
+}
+
+/* li:first-child {
+  color: deepskyblue;
+}
+
+li:last-child {
+  color: purple;
+} */
+
+/* li:nth-child(2) {
+  color: orangered;
+} */
+
+.about-link:link {
+  color: green;
+}
+
+.about-link:visited {
+  color: peru;
+}
+
+h1 + h2 {
+  color: purple;
+}
+
+h1 ~ h2 {
+  color: aqua;
+}
+
+#nav-list > li {
+  color: brown;
+}
+
+#nav-list li {
+  color: cornflowerblue;
+}
+
+#nav-list li > a {
+  color: cornflowerblue;
+}
+
+h1[name="titolo"] {
+  color: burlywood;
+}
+
+img[src^="images/"] {
+  border: 10px solid black;
+}
+
+img[src$=".png"] {
+  border-radius: 50%;
+}
+
+img[src*="logo"] {
+  border-color: chartreuse;
+}
