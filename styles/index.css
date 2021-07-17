@@ -21,3 +21,28 @@ p {
 #best-blog-caption {
   color: slateblue;
 }
+
+#best-blog-caption:hover {
+  color: red;
+  font-size: 30px;
+}
+
+li:first-child {
+  color: deepskyblue;
+}
+
+li:last-child {
+  color: purple;
+}
+
+li:nth-child(2) {
+  color: orangered;
+}
+
+.about-link:link {
+  color: green;
+}
+
+.about-link:visited {
+  color: peru;
+}
