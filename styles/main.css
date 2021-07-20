@@ -1,0 +1,38 @@
+body {
+  /* background: url("https://res.cloudinary.com/francinildo/image/upload/v1568660959/Grupo_1.png"); */
+  background: rgba(142, 87, 173, 1);
+  /* background: #efefef; */
+
+  /* background-image: url("../images/logo-h4l.png"); */
+}
+
+.titolo {
+  color: #5e13c0;
+}
+
+.sottotitolo {
+  color: rgb(142, 84, 218);
+}
+
+.post-title {
+  color: #1c191d;
+}
+
+.post-subtitle {
+  color: #2f2c30;
+}
+
+.post-paragraph {
+  color: rgb(78, 74, 79);
+}
+
+.bg-image {
+  height: 360px;
+  width: 720px;
+
+  /* background: linear-gradient(to right, red, blue); */
+  /* background-image: linear-gradient(to right, red, green, pink, blue); */
+  /* background-image: linear-gradient(to left bottom, red, green, pink, blue); */
+  /* background-image: linear-gradient(220deg, red, blue); */
+  background: radial-gradient(circle, steelblue 33%, pink 64%, #f26caf 28%);
+}
