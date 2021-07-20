@@ -9,35 +9,23 @@
       content="sono una intestazione, bel paragrafo, sottotitolo"
     />
     <title>Il Primo Blog</title>
-    <link rel="stylesheet" href="./styles/index.css" />
+    <!-- <link rel="stylesheet" href="./styles/index.css" /> -->
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
 
   <body>
     <header>
-      <h1 name="titolo">Il Mio Blog</h1>
-      <h2>Il Miglior blog di articoli</h2>
+      <h1 class="titolo" name="titolo">Il Mio Blog</h1>
+      <h2 class="sottotitolo">Il Miglior blog di articoli</h2>
     </header>
-    <!-- <h1>Il Mio Blog</h1>
-    <h2>Il Miglior blog di articoli</h2> -->
-    <h2>Secondo h2</h2>
     <!-- INIZIO BARRA DI NAVIGAZIONE -->
     <nav>
       <ul id="nav-list">
-        <li>Home</li>
-        <li>Contatti</li>
-        <!-- <li>
+        <li class="nav-item">Home</li>
+        <li class="nav-item">Contatti</li>
+        <li>
           <a class="about-link" href="about.html"> About </a>
-          <a class="about-link" href="https://google.com"> About </a>
-        </li> -->
-        <ol>
-          <li>
-            <a href="about.html"> About </a>
-          </li>
-          <li>
-            <a href="about.html"> About </a>
-          </li>
-        </ol>
+        </li>
       </ul>
     </nav>
     <!--FINE NAVIGAZIONE-->
@@ -46,9 +34,9 @@
     <main>
       <section>
         <!--INIZIO ARTICOLI-->
-        <article>
-          <h3>Titolo 1</h3>
-          <h4 class="red-text">Sottotitolo 1</h4>
+        <article class="post-container" id="post1">
+          <h3 class="post-title">Titolo 1</h3>
+          <h4 class="post-subtitle">Sottotitolo 1</h4>
           <a href="about.html">
             <img
               src="images/logo-h4l.png"
@@ -57,7 +45,7 @@
               alt="logo della pagina di hpv for learning"
             />
           </a>
-          <p class="red-text" id="primo-paragrafo" style="color: saddlebrown">
+          <p class="post-paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum
             sapiente suscipit totam nemo <b>sed corporis</b> rerum sit earum,
             ipsam officiis, dolorum, quos incidunt?
@@ -79,19 +67,20 @@
         <br />
 
         <hr />
-        <article>
-          <h3>Titolo 2</h3>
-          <h4>Sottotitolo 2</h4>
-          <img
-            src="images/logo-h4l.png"
-            width="200"
-            height="200"
-            alt="logo della pagina di hpv for learning"
-          />
-          <p>
+        <article class="post" id="post2">
+          <h3 class="post-title">Titolo 1</h3>
+          <h4 class="post-subtitle">Sottotitolo 1</h4>
+          <a href="about.html">
+            <img
+              src="images/logo-h4l.png"
+              width="200"
+              height="200"
+              alt="logo della pagina di hpv for learning"
+            />
+          </a>
+          <p class="post-paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum
-            sapiente suscipit totam nemo <b>sed corporis</b> rerum sit earum
-            <br />
+            sapiente suscipit totam nemo <b>sed corporis</b> rerum sit earum,
             ipsam officiis, dolorum, quos incidunt?
             <cite> Aperiam ad doloremque ipsum </cite>
             cum odit.

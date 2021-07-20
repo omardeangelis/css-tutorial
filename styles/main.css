@@ -1,7 +1,19 @@
-body {
-  background-color: #efefef;
+.titolo {
+  color: #5e13c0;
 }
 
-.red-text {
-  color: green;
+.sottotitolo {
+  color: rgb(142, 84, 218);
+}
+
+.post-title {
+  color: #1c191d;
+}
+
+.post-subtitle {
+  color: #2f2c30;
+}
+
+.post-paragraph {
+  color: rgb(78, 74, 79);
 }
