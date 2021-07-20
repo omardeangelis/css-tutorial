@@ -1,6 +1,8 @@
 body {
   /* background: url("https://res.cloudinary.com/francinildo/image/upload/v1568660959/Grupo_1.png"); */
-  background: #efefef;
+  background: rgba(142, 87, 173, 1);
+  /* background: #efefef; */
+
   /* background-image: url("../images/logo-h4l.png"); */
 }
 
@@ -25,12 +27,13 @@ body {
 }
 
 .bg-image {
-  height: 720px;
-  width: 1440px;
+  height: 360px;
+  width: 720px;
   background: url("https://images.all-free-download.com/images/graphicthumb/countryside_landscape_background_colorful_cartoon_sketch_6851325.jpg");
   background-color: #f72585;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.3;
   /* background-size: contain; */
   /* background-position: center; */
 }
