@@ -1,5 +1,6 @@
 body {
-  background: #efefef;
+  background: url("https://res.cloudinary.com/francinildo/image/upload/v1568660959/Grupo_1.png");
+  /* background-image: url("../images/logo-h4l.png"); */
 }
 
 .titolo {
