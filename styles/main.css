@@ -1,9 +1,10 @@
-body {
-  /* background: url("https://res.cloudinary.com/francinildo/image/upload/v1568660959/Grupo_1.png"); */
-  background: rgba(142, 87, 173, 1);
-  /* background: #efefef; */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
-  /* background-image: url("../images/logo-h4l.png"); */
+body {
+  background: #efefef;
+  font-size: 1.25em;
+  font-family: "Lato", "Montserrat", sans-serif;
+  /* font-family: monospace; */
 }
 
 .titolo {
@@ -19,20 +20,23 @@ body {
 }
 
 .post-subtitle {
+  font-weight: 800;
   color: #2f2c30;
 }
 
 .post-paragraph {
   color: rgb(78, 74, 79);
+  max-width: 60ch;
+  line-height: 1.8;
+  letter-spacing: 0.34px;
 }
 
 .bg-image {
-  height: 360px;
-  width: 720px;
-
-  /* background: linear-gradient(to right, red, blue); */
-  /* background-image: linear-gradient(to right, red, green, pink, blue); */
-  /* background-image: linear-gradient(to left bottom, red, green, pink, blue); */
-  /* background-image: linear-gradient(220deg, red, blue); */
+  height: 360px; /* mm, cm,  px, pt, 1pc = 12pt Misura Assoluta n.b dipende dai DPI dello schermo */
+  width: 70%; /* % em rem vw vh Misura Relativa */
   background: radial-gradient(circle, steelblue 33%, pink 64%, #f26caf 28%);
+}
+
+.about-link {
+  text-decoration: none;
 }
