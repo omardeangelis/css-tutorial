@@ -1,5 +1,7 @@
 body {
   background: #efefef;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .titolo {
@@ -26,4 +28,8 @@ body {
   height: 360px; /* mm, cm,  px, pt, 1pc = 12pt Misura Assoluta n.b dipende dai DPI dello schermo */
   width: 70%; /* % em rem vw vh Misura Relativa */
   background: radial-gradient(circle, steelblue 33%, pink 64%, #f26caf 28%);
+}
+
+.about-link {
+  text-decoration: none;
 }
