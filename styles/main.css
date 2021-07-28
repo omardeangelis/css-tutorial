@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
 body {
   background: #efefef;
   font-size: 1.25em;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", "Montserrat", sans-serif;
   /* font-family: monospace; */
 }
 
@@ -25,8 +27,6 @@ body {
 .post-paragraph {
   color: rgb(78, 74, 79);
   max-width: 60ch;
-  font-style: italic;
-  font-variant: small-caps;
   line-height: 1.8;
   letter-spacing: 0.34px;
 }
