@@ -1,9 +1,8 @@
 body {
   background: #efefef;
-  /* text-transform: uppercase; */
-  /* text-align: center; */
   font-size: 1.25em;
-  /* font-size: 60ch; */
+  font-family: "Open Sans", sans-serif;
+  /* font-family: monospace; */
 }
 
 .titolo {
