@@ -26,24 +26,21 @@ body {
 
 .post-paragraph {
   color: rgb(78, 74, 79);
-  max-width: 60ch;
+  /* max-width: 60ch; */
   line-height: 1.8;
   letter-spacing: 0.34px;
 }
 
 .img {
-  height: 400px;
-  width: 60vw;
-  /* border: 10px solid rgb(122, 64, 198); */
-  /* padding: 50px;
-  margin: 50px; */
-  /* padding-left: 18px;
-  padding-bottom: 67px;
-  padding-top: 33px; */
-  /* padding: 33px 0px 67px 18px; */
-  /* padding: 18px 36px; */
+  float: left;
+  height: 300px;
+  width: 60%;
+  /* width: 40%; */
   border-radius: 50px;
   margin: 20px 50px;
+}
+time {
+  display: block;
 }
 
 .bg-image {
@@ -54,4 +51,10 @@ body {
 
 .about-link {
   text-decoration: none;
+}
+
+table {
+  display: none;
+  /* opacity: 0;
+  visibility: hidden; */
 }
