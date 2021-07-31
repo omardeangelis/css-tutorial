@@ -37,19 +37,57 @@
     <br />
     <br />
     <main>
+      <div class="container">
+        <div class="items" style="flex: 1 1 100px; align-self: flex-start">
+          A
+        </div>
+        <div
+          class="items"
+          style="order: 4; flex-grow: 1; flex-shrink: 1; flex-basis: 50px"
+        >
+          B
+        </div>
+        <div
+          class="items"
+          style="order: 1; flex-grow: 1; flex-shrink: 2; flex-basis: 50px"
+        >
+          C
+        </div>
+        <div
+          class="items"
+          style="
+            order: 5;
+            flex-grow: 4;
+            flex-shrink: 0;
+            flex-basis: 50px;
+            align-self: flex-end;
+          "
+        >
+          D
+        </div>
+        <div
+          class="items"
+          style="order: 6; flex-grow: 1; flex-shrink: 10; flex-basis: 50px"
+        >
+          E
+        </div>
+        <div
+          class="items"
+          style="order: 2; flex-grow: 1; flex-shrink: 1; flex-basis: 50px"
+        >
+          F
+        </div>
+      </div>
       <section>
         <!--INIZIO ARTICOLI-->
         <article class="post-container" id="post1">
           <h3 class="post-title">Titolo 1</h3>
           <h4 class="post-subtitle">Sottotitolo 1</h4>
-          <a href="about.html">
-            <img
-              src="images/logo-h4l.png"
-              width="200"
-              height="200"
-              alt="logo della pagina di hpv for learning"
-            />
-          </a>
+          <img
+            class="img"
+            src="https://i.pinimg.com/736x/ab/13/10/ab1310c11f5f280ace9523f896ac1d56.jpg"
+            alt="logo della pagina di hpv for learning"
+          />
           <p class="post-paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum
             sapiente suscipit totam nemo <b>sed corporis</b> rerum sit earum,
@@ -60,10 +98,13 @@
           <footer>
             <cite>
               <blockquote cite="https://hpv4learning.it">
-                <q> Il Latino è super utile. WOW </q>
+                <q>
+                  Il Latino è super utile. WOW
+                  <time datetime="23-01-2021"> 23 Giugno 2021</time>
+                </q>
               </blockquote>
             </cite>
-            <time datetime="23-01-2021"> 23 Giugno 2021</time>
+
             <a href="https://hpv4learning.it" class="link" target="_blank">
               <button>Scopri l'autore</button>
             </a>
