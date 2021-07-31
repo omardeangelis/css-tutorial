@@ -5,6 +5,7 @@ body {
   font-size: 1.25em;
   font-family: "Lato", "Montserrat", sans-serif;
   /* font-family: monospace; */
+  /* overflow-x: hidden; */
 }
 
 .titolo {
@@ -31,6 +32,10 @@ body {
   letter-spacing: 0.34px;
 }
 
+time {
+  display: block;
+}
+
 .bg-image {
   height: 360px; /* mm, cm,  px, pt, 1pc = 12pt Misura Assoluta n.b dipende dai DPI dello schermo */
   width: 70%; /* % em rem vw vh Misura Relativa */
@@ -40,3 +45,34 @@ body {
 .about-link {
   text-decoration: none;
 }
+
+.container {
+  background: white;
+  padding: 20px;
+  margin: 250px auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  height: 300px;
+  justify-content: center;
+  gap: 10px;
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+
+  align-items: center;
+  /* align-items: flex-start; */
+}
+.items {
+  color: white;
+  /* width: 20px; */
+  background: rgb(24, 132, 78);
+  padding: 12px 15px;
+  /* margin: 10px; */
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0px 9px 33px rgba(0, 0, 0, 0.1);
+}
+
+/* .container .items:nth-child(3) {
+  line-height: 100px;
+} */
