@@ -5,6 +5,7 @@ body {
   font-size: 1.25em;
   font-family: "Lato", "Montserrat", sans-serif;
   /* font-family: monospace; */
+  /* overflow-x: hidden; */
 }
 
 .titolo {
@@ -31,13 +32,6 @@ body {
   letter-spacing: 0.34px;
 }
 
-.img {
-  float: left;
-  height: 300px;
-  width: 60%;
-  border-radius: 50px;
-  margin: 20px 50px;
-}
 time {
   display: block;
 }
@@ -55,11 +49,13 @@ time {
 .container {
   background: white;
   padding: 20px;
-  width: 100%;
   margin: 250px auto;
   display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse;
+  flex-direction: row-reverse; */
 }
-
 .items {
   color: white;
   width: 20px;
