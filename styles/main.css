@@ -52,9 +52,15 @@ time {
   margin: 250px auto;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
-  /* flex-direction: column-reverse;
-  flex-direction: row-reverse; */
+  height: 300px;
+  justify-content: center;
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+
+  align-items: center;
+  /* align-items: flex-start; */
+  align-items: baseline;
 }
 .items {
   color: white;
@@ -65,4 +71,8 @@ time {
   text-align: center;
   border-radius: 3px;
   box-shadow: 0px 9px 33px rgba(0, 0, 0, 0.1);
+}
+
+.container .items:nth-child(3) {
+  line-height: 100px;
 }
