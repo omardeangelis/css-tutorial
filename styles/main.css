@@ -115,3 +115,21 @@ time {
 .grid-container .grid-items:nth-child(6) {
   background-color: tan;
 }
+
+button[type="submit"] {
+  background-color: teal;
+  color: white;
+  padding: 0.825rem 2rem;
+  border-radius: 18px;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: none;
+  margin: 16px 0px;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.submit-btn:hover {
+  background-color: tomato;
+  padding: 1.25rem 2.5em;
+}
