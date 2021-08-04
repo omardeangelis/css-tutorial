@@ -76,8 +76,8 @@ time {
   margin-top: -200px;
   min-height: 300px;
   height: 100%;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
   gap: 20px;
 }
 
@@ -91,9 +91,17 @@ time {
 
 .grid-container .grid-items:nth-child(1) {
   background: #f26caf;
+  /* grid-column: 1 / 3; */
+  /* grid-column: 1 / -1; */
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
 }
 .grid-container .grid-items:nth-child(2) {
   background: #c3e1ff;
+  width: 200px;
+  height: 50px;
+  grid-column: 1/ 3;
+  grid-row: 2/2;
 }
 .grid-container .grid-items:nth-child(3) {
   background-color: #c2ffd4;
