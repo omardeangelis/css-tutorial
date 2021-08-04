@@ -137,3 +137,26 @@ button[type="submit"] {
   background-color: tomato;
   padding: 1.25rem 2.5em;
 }
+
+#header {
+  opacity: 0;
+  /* animation-name: fadeFromRight;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-timing-function: ease; */
+  /* animation-iteration-count: 2; */
+  animation: fadeFromRight 3s ease 2s 1 normal forwards;
+}
+
+@keyframes fadeFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(400px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
