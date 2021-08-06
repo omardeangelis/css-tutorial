@@ -11,7 +11,7 @@
     <title>Il Primo Blog</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <!-- <link rel="stylesheet" href="./styles/index.css" /> -->
@@ -21,21 +21,25 @@
   <body>
     <header id="header">
       <!-- INIZIO BARRA DI NAVIGAZIONE -->
-      <nav>
-        <div>
-          <h4>LOGO</h4>
+      <nav id="navbar" class="flex-container">
+        <div class="container">
+          <div class="flex-container">
+            <div>
+              <h4>LOGO</h4>
+            </div>
+            <ul id="nav-list">
+              <li class="active-link">Home</li>
+              <li>
+                <a class="about-link" href="about.html"> About </a>
+              </li>
+              <li class="nav-item">Contatti</li>
+              <li>Supporto</li>
+              <li>Prodotti</li>
+              <li>Accedi</li>
+              <li>Registrati</li>
+            </ul>
+          </div>
         </div>
-        <ul id="nav-list">
-          <li class="nav-item">Home</li>
-          <li>
-            <a class="about-link" href="about.html"> About </a>
-          </li>
-          <li class="nav-item">Contatti</li>
-          <li>Supporto</li>
-          <li>Prodotti</li>
-          <li>Accedi</li>
-          <li>Registrati</li>
-        </ul>
       </nav>
       <div>
         <h1>IL MIO PRIMO BLOG</h1>
