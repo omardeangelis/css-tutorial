@@ -15,77 +15,47 @@
       rel="stylesheet"
     />
     <!-- <link rel="stylesheet" href="./styles/index.css" /> -->
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
     <header id="header">
-      <h1 class="titolo" name="titolo">Il Mio Blog</h1>
-      <h2 class="sottotitolo">Il Miglior blog di articoli</h2>
+      <!-- INIZIO BARRA DI NAVIGAZIONE -->
+      <nav>
+        <div>
+          <h4>LOGO</h4>
+        </div>
+        <ul id="nav-list">
+          <li class="nav-item">Home</li>
+          <li>
+            <a class="about-link" href="about.html"> About </a>
+          </li>
+          <li class="nav-item">Contatti</li>
+          <li>Supporto</li>
+          <li>Prodotti</li>
+          <li>Accedi</li>
+          <li>Registrati</li>
+        </ul>
+      </nav>
+      <div>
+        <h1>IL MIO PRIMO BLOG</h1>
+      </div>
     </header>
-    <!-- INIZIO BARRA DI NAVIGAZIONE -->
-    <nav>
-      <ul id="nav-list">
-        <li class="nav-item">Home</li>
-        <li class="nav-item">Contatti</li>
-        <li>
-          <a class="about-link" href="about.html"> About </a>
-        </li>
-      </ul>
-    </nav>
     <!--FINE NAVIGAZIONE-->
-    <br />
-    <br />
+    <nav>
+      <input type="text" placeholder="Cerca tra tutti gli articoli" />
+      <div>
+        <ul>
+          <li>Tutto</li>
+          <li>Mercato</li>
+          <li>Business</li>
+          <li>Crypto</li>
+          <li>Latino</li>
+          <li>Video</li>
+        </ul>
+      </div>
+    </nav>
     <main>
-      <div class="container">
-        <div class="items" style="flex: 1 1 100px; align-self: flex-start">
-          A
-        </div>
-        <div
-          class="items"
-          style="order: 4; flex-grow: 1; flex-shrink: 1; flex-basis: 50px"
-        >
-          B
-        </div>
-        <div
-          class="items"
-          style="order: 1; flex-grow: 1; flex-shrink: 2; flex-basis: 50px"
-        >
-          C
-        </div>
-        <div
-          class="items"
-          style="
-            order: 5;
-            flex-grow: 4;
-            flex-shrink: 0;
-            flex-basis: 50px;
-            align-self: flex-end;
-          "
-        >
-          D
-        </div>
-        <div
-          class="items"
-          style="order: 6; flex-grow: 1; flex-shrink: 10; flex-basis: 50px"
-        >
-          E
-        </div>
-        <div
-          class="items"
-          style="order: 2; flex-grow: 1; flex-shrink: 1; flex-basis: 50px"
-        >
-          F
-        </div>
-      </div>
-      <div class="grid-container">
-        <div class="grid-items">1</div>
-        <div class="grid-items">2</div>
-        <div class="grid-items">3</div>
-        <div class="grid-items">4</div>
-        <div class="grid-items">5</div>
-        <div class="grid-items">6</div>
-      </div>
       <section>
         <!--INIZIO ARTICOLI-->
         <article class="post-container" id="post1">
