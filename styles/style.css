@@ -16,6 +16,7 @@
   --grey2: #f3f4f5;
   --grey3: #65676b;
   --black1: #101010;
+  --brand-color: #7026ba;
 }
 
 a {
@@ -50,10 +51,24 @@ body {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 96px;
   line-height: 105px;
   font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 67px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h4,
+h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 /*START NAVBAR STYLE*/
@@ -117,3 +132,53 @@ h1 {
 }
 
 /* END OF SEARCH NAV */
+
+#fixed-article {
+  margin-top: 56px;
+}
+
+#main-article {
+  gap: 151px;
+}
+
+#main-article .text-container {
+  flex-direction: column;
+  gap: 24px;
+}
+
+.post-category {
+  color: var(--brand-color);
+}
+
+#main-article .img-container {
+  position: relative;
+  width: 530px;
+  height: 341px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  overflow: hidden;
+  /* flex-basis: 560px; */
+  background-color: var(--grey2);
+}
+
+#main-article .img-container .img {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+#main-article footer {
+  gap: 16px;
+}
+
+#main-article .author-box {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: var(--grey2);
+}
+
+#main-article .author-box p {
+  color: #65676b;
+  font-weight: 600;
+}
