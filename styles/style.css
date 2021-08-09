@@ -82,6 +82,11 @@ h6 {
   color: var(--brand-color);
 }
 
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
 /*START NAVBAR STYLE*/
 
 #navbar {
