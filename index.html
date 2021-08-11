@@ -23,6 +23,7 @@
     />
     <!-- <link rel="stylesheet" href="./styles/index.css" /> -->
     <link rel="stylesheet" href="./styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
@@ -57,16 +58,18 @@
     <!--FINE NAVIGAZIONE-->
     <nav id="search-nav" class="flex-container">
       <div class="container">
-        <div class="flex-container align-center">
+        <div class="flex-container align-center column-lg blog-search">
           <input type="text" placeholder="Cerca" />
-          <ul class="flex-container">
-            <li>Tutto</li>
-            <li>Mercato</li>
-            <li>Business</li>
-            <li>Cryptovalute</li>
-            <li class="active-link">Sviluppo</li>
-            <li>Video</li>
-          </ul>
+          <div id="search-box">
+            <ul class="flex-container" id="search-list">
+              <li>Tutto</li>
+              <li>Mercato</li>
+              <li>Business</li>
+              <li>Cryptovalute</li>
+              <li class="active-link">Sviluppo</li>
+              <li>Video</li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -101,7 +104,7 @@
       <section class="content-section">
         <div class="section-wrapper container flex-container">
           <h3 class="section-title">Novità</h3>
-          <div class="article-list flex-container align-center">
+          <div class="article-list column-sm flex-container align-center">
             <article class="post flex-container" id="post2">
               <div class="img-container"></div>
               <h6 class="post-category">Mercato</h6>
@@ -143,7 +146,7 @@
       <section class="content-section">
         <div class="section-wrapper container flex-container">
           <h3 class="section-title">Popolari</h3>
-          <div class="article-list flex-container align-center">
+          <div class="article-list column-sm flex-container align-center">
             <article class="post flex-container" id="post2">
               <div class="img-container"></div>
               <h6 class="post-category">Mercato</h6>
@@ -185,7 +188,7 @@
       <section class="content-section">
         <div class="section-wrapper container flex-container">
           <h3 class="section-title">Scelti dalla Community</h3>
-          <div class="article-list flex-container align-center">
+          <div class="article-list column-sm flex-container align-center">
             <article class="post flex-container" id="post2">
               <div class="img-container"></div>
               <h6 class="post-category">Mercato</h6>
@@ -262,7 +265,7 @@
           </form>
         </div>
       </div>
-      <section class="footer-link-container flex-container">
+      <section class="footer-link-container flex-container column-md">
         <img src="images/logo-h4l.png" alt="blog-logo" class="logo" />
         <div class="grid-list">
           <div>

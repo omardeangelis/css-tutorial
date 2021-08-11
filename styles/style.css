@@ -87,6 +87,53 @@ h6 {
   height: 60px;
 }
 
+@media screen and (max-width: 1192px) {
+  h1 {
+    font-size: 72px;
+    line-height: 96px;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 28, 43px;
+  }
+
+  h4,
+  h6 {
+    font-size: 14px;
+  }
+
+  .column-lg {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .column-md {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .column-sm {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .column-xs {
+    flex-direction: column;
+  }
+}
+
 /*START NAVBAR STYLE*/
 
 #navbar {
@@ -173,7 +220,6 @@ h6 {
   flex-grow: 1;
   flex-shrink: 0;
   overflow: hidden;
-  /* flex-basis: 560px; */
   background-color: var(--grey2);
 }
 
@@ -344,4 +390,94 @@ footer .copyright {
   padding: 15px;
   font-size: 12px;
   color: var(--grey3);
+}
+
+@media screen and (max-width: 1192px) {
+  .content-section .img-container {
+    width: 240px;
+    height: 180px;
+  }
+}
+
+/*START MEDIA QUERY*/
+@media screen and (max-width: 1024px) {
+  #main-article .post-title {
+    flex-grow: 1;
+  }
+
+  #main-article .img-container {
+    width: 490px;
+    height: 300px;
+  }
+
+  #search-nav {
+    margin: 70px auto;
+  }
+
+  .blog-search {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  #search-box {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  #search-list {
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+
+  #main-article {
+    flex-direction: column;
+  }
+
+  #main-article .img-container {
+    width: 300px;
+    height: 220px;
+    align-self: center;
+  }
+
+  #nav-list {
+    display: none !important;
+  }
+
+  .content-section .img-container {
+    width: 160px;
+    height: 120px;
+  }
+
+  .community-container h3 {
+    font-size: 56px;
+    line-height: 72px;
+  }
+
+  /* .community-container p {
+    display: none;
+  } */
+
+  .community-container .grid-container {
+    grid-template-columns: auto;
+  }
+
+  .grid-list {
+    grid-template-columns: auto auto !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+}
+
+@media screen and (max-width: 440px) {
+  #main-article .img-container {
+    width: calc(100% - 24px);
+    height: 220px;
+    align-self: center;
+  }
+
+  .grid-list {
+    grid-template-columns: auto !important;
+    justify-items: center;
+  }
 }
