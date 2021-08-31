@@ -1,17 +1,51 @@
-## Informazioni Utili per seguire il corso
+# Codice per Seguire la parte di Teoria
+Codice utilizzato per la parte teorica del corso di css. 
 
-Scaricando il codice di questa repo scaricherai il codice dell'esercitazione finale del corso.  Ti basterà commentare il tag contenente il link al file css per avere il codice html per fare l'esercitazione. 
+## Link utili e collegamenti 
 
-#### Scaricare Codice della parte teorica
+### Estensioni
 
-Repo contenente il codice per seguire la parte teorica: https://github.com/omardeangelis/introduzione-html
+**Auto Rename Tag** 
+
+Permette di rinominare automaticamente i tag di apertura e chiusura \
+https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag 
+
+**Pair Colorizer** \
+Colora le parentesi in modo da rendere riconoscibili i blocchi di codice \
+https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer 
+
+**HTML CSS Support**\
+Aiuta ad autocompletare classi e id nei nostri file HTML e CSS \
+https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css 
+
+**Live Server**\
+Se presenti almeno un ``` <html> ``` e un ``` <body> ``` lancia un server che aggiorna la pagina ad ogni salvataggio insantaneamente \
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer 
+
+**Emmet**\
+Permette di creare elementi html utilizzando delle scorciatoie *Richiede configurazione* \
+https://code.visualstudio.com/docs/editor/emmet 
+
+**Prettier**\
+Formatta il codice automaticamente quando salviamo o quando incolliamo del contenuto *Richiede configurazione* 
+https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode 
+
+**Il mio setup di Visual Studio Code**
+Qui trovia la configurazione del mio Visual Studio Code
+https://github.com/omardeangelis/VS-CCODE-SETUP
+
+## Link Esterni 
+
+**Google Fonts**\
+https://fonts.google.com/
+
+**Font Awesome**\
+CDN: https://cdnjs.com/libraries/font-awesome \
+Libreria Icone: https://fontawesome.com/v5.15/icons?d=gallery&p=2
+
 
 __altri link utili per il corso__
 
-Il mio set up di VS Code: https://github.com/omardeangelis/VS-CCODE-SETUP \
-Estensione per autocompletamento HTML : https://code.visualstudio.com/docs/editor/emmet \
-Font awesome cdnjs link: https://cdnjs.com/libraries/font-awesome \
-Font awesome list icon: https://fontawesome.com/v5.15/icons?d=gallery&p=2 \
 Libreria di immagini ad alta qualità: https://www.pexels.com/it-it/ \
 Guida al css di MDN: https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=it \
 Guida super completa per flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
