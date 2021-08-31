@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  background: #efefef;
+  font-size: 1.25em;
+  font-family: "Lato", "Montserrat", sans-serif;
+  /* font-family: monospace; */
+  /* overflow-x: hidden; */
+}
+
+.titolo {
+  color: #5e13c0;
+}
+
+.sottotitolo {
+  color: rgb(142, 84, 218);
+}
+
+.post-title {
+  color: #1c191d;
+}
+
+.post-subtitle {
+  font-weight: 800;
+  color: #2f2c30;
+}
+
+.post-paragraph {
+  color: rgb(78, 74, 79);
+  max-width: 60ch;
+  line-height: 1.8;
+  letter-spacing: 0.34px;
+}
+
+time {
+  display: block;
+}
+
+.bg-image {
+  height: 360px; /* mm, cm,  px, pt, 1pc = 12pt Misura Assoluta n.b dipende dai DPI dello schermo */
+  width: 70%; /* % em rem vw vh Misura Relativa */
+  background: radial-gradient(circle, steelblue 33%, pink 64%, #f26caf 28%);
+}
+
+.about-link {
+  text-decoration: none;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  margin: 250px auto;
+  height: 300px;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.items {
+  color: white;
+  background: rgb(24, 132, 78);
+  padding: 12px 15px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0px 9px 33px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container {
+  background: white;
+  padding: 20px;
+  display: grid;
+  margin-top: -200px;
+  min-height: 300px;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+}
+
+.grid-items {
+  color: black;
+  /* width: 30px;
+  height: 30px; */
+  padding: 18px 36px;
+  font-size: 1.35em;
+}
+
+.grid-container .grid-items:nth-child(1) {
+  background: #f26caf;
+  /* grid-column: 1 / 3; */
+  /* grid-column: 1 / -1; */
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+.grid-container .grid-items:nth-child(2) {
+  background: #c3e1ff;
+  width: 200px;
+  height: 50px;
+  grid-column: 1/ 3;
+  grid-row: 2/2;
+}
+.grid-container .grid-items:nth-child(3) {
+  background-color: #c2ffd4;
+}
+.grid-container .grid-items:nth-child(4) {
+  background-color: aquamarine;
+}
+.grid-container .grid-items:nth-child(5) {
+  background-color: darkkhaki;
+}
+.grid-container .grid-items:nth-child(6) {
+  background-color: tan;
+}
+
+button[type="submit"] {
+  background-color: teal;
+  color: white;
+  padding: 0.825rem 2rem;
+  border-radius: 18px;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: none;
+  margin: 16px 0px;
+  cursor: pointer;
+  transition: all 400ms ease;
+  /* transform: translate(60px, 80px);
+  transform: scale(1.15);
+  transform: rotate(50deg); */
+  transform: skew(20deg, 5deg);
+}
+
+.submit-btn:hover {
+  background-color: tomato;
+  padding: 1.25rem 2.5em;
+}
+
+#header {
+  opacity: 0;
+  /* animation-name: fadeFromRight;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-timing-function: ease; */
+  /* animation-iteration-count: 2; */
+  animation: fadeFromRight 3s ease 2s 1 normal forwards;
+}
+
+@keyframes fadeFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(400px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

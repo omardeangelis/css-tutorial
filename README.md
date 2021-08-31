@@ -44,3 +44,9 @@ CDN: https://cdnjs.com/libraries/font-awesome \
 Libreria Icone: https://fontawesome.com/v5.15/icons?d=gallery&p=2
 
 
+__altri link utili per il corso__
+
+Libreria di immagini ad alta qualità: https://www.pexels.com/it-it/ \
+Guida al css di MDN: https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=it \
+Guida super completa per flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+

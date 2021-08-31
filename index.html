@@ -9,150 +9,331 @@
       content="sono una intestazione, bel paragrafo, sottotitolo"
     />
     <title>Il Primo Blog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&family=Lato:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="./styles/index.css" /> -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
-    <header>
-      <h1>Il Mio Blog</h1>
-      <h2>Il Miglior blog di articoli</h2>
+    <header id="header">
+      <!-- INIZIO BARRA DI NAVIGAZIONE -->
+      <nav id="navbar" class="flex-container">
+        <div class="container">
+          <div class="flex-container">
+            <div>
+              <img src="images/logo-h4l.png" alt="blog-logo" class="logo" />
+            </div>
+            <ul id="nav-list">
+              <li class="active-link">Home</li>
+              <li>
+                <a class="about-link" href="about.html"> About </a>
+              </li>
+              <li class="nav-item">Contatti</li>
+              <li>Supporto</li>
+              <li>Prodotti</li>
+              <li>Accedi</li>
+              <li>Registrati</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="claim" class="flex-container align-center">
+        <div class="container flex-container justify-center align-center">
+          <h1>Il Mio Primo Blog</h1>
+        </div>
+      </div>
     </header>
-    <!-- INIZIO BARRA DI NAVIGAZIONE -->
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Contatti</li>
-        <li>
-          <a href="about.html"> About </a>
-        </li>
-      </ul>
-    </nav>
     <!--FINE NAVIGAZIONE-->
-    <br />
-    <br />
+    <nav id="search-nav" class="flex-container">
+      <div class="container">
+        <div class="flex-container align-center column-lg blog-search">
+          <input type="text" placeholder="Cerca" />
+          <div id="search-box">
+            <ul class="flex-container" id="search-list">
+              <li>Tutto</li>
+              <li>Mercato</li>
+              <li>Business</li>
+              <li>Cryptovalute</li>
+              <li class="active-link">Sviluppo</li>
+              <li>Video</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
     <main>
-      <section>
+      <section id="fixed-article">
         <!--INIZIO ARTICOLI-->
-        <article>
-          <h3>Titolo 1</h3>
-          <h4>Sottotitolo 1</h4>
-          <a href="about.html">
+        <article class="container flex-container" id="main-article">
+          <div class="text-container flex-container">
+            <h4 class="post-category">Sviluppo</h4>
+            <h2 class="post-title">
+              Dopo HTML e CSS il prossimo passo è Javascript
+            </h2>
+            <footer class="flex-container align-center">
+              <div
+                class="author-box flex-container justify-center align-center"
+              >
+                <p>OD</p>
+              </div>
+              <h6 class="author-name">Omar De Angelis</h6>
+            </footer>
+          </div>
+          <div class="img-container">
             <img
-              src="images/logo-h4l.png"
-              width="200"
-              height="200"
-              alt="logo della pagina di hpv for learning"
+              class="img"
+              src="./images/learn-and-quickstart-html-css-javascript-easily.jpeg"
+              alt="html css e javascript logos"
             />
-          </a>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum
-            sapiente suscipit totam nemo <b>sed corporis</b> rerum sit earum,
-            ipsam officiis, dolorum, quos incidunt?
-            <cite> Aperiam ad doloremque ipsum </cite>
-            cum odit.
-          </p>
-          <footer>
-            <cite>
-              <blockquote cite="https://hpv4learning.it">
-                <q> Il Latino è super utile. WOW </q>
-              </blockquote>
-            </cite>
-            <time datetime="23-01-2021"> 23 Giugno 2021</time>
-            <a href="https://hpv4learning.it" target="_blank">
-              <button>Scopri l'autore</button>
-            </a>
-          </footer>
-        </article>
-        <br />
-
-        <hr />
-        <article>
-          <h3>Titolo 2</h3>
-          <h4>Sottotitolo 2</h4>
-          <img
-            src="images/logo-h4l.png"
-            width="200"
-            height="200"
-            alt="logo della pagina di hpv for learning"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum
-            sapiente suscipit totam nemo <b>sed corporis</b> rerum sit earum
-            <br />
-            ipsam officiis, dolorum, quos incidunt?
-            <cite> Aperiam ad doloremque ipsum </cite>
-            cum odit.
-          </p>
-          <footer>
-            <cite>
-              <blockquote cite="https://hpv4learning.it">
-                <q> Il Latino è super utile. WOW </q>
-              </blockquote>
-            </cite>
-            <time datetime="23-01-2021"> 23 Giugno 2021</time>
-          </footer>
+          </div>
         </article>
       </section>
 
-      <br />
-      <hr />
-      <br />
-      <table cellpadding="6" border="1">
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th colspan="2">Anagrafica</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Dario</td>
-            <td>Eta: 1</td>
-            <td>Peso 70</td>
-          </tr>
-        </tbody>
-      </table>
-    </main>
-    <br />
-    <br />
-    <!--FINE ARTICOLI-->
-    <aside>
-      <div>
-        <article>
-          <small> Scopri i Nostri ultimi articoli </small>
-          <details>
-            <summary>Latino, Le novità</summary>
-            <article>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              culpa porro, rem delectus, quos enim ex at ut labore sit quas!
+      <section class="content-section">
+        <div class="section-wrapper container flex-container">
+          <h3 class="section-title">Novità</h3>
+          <div class="article-list column-sm flex-container align-center">
+            <article class="post flex-container" id="post2">
+              <div class="img-container"></div>
+              <h6 class="post-category">Mercato</h6>
+              <h3 class="post-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h3>
+              <footer>
+                <h6 class="author-name">Omar De Angelis</h6>
+              </footer>
             </article>
-          </details>
-        </article>
-        <br />
-        <h4>Iscriviti alla nostra news Letters</h4>
-        <form>
-          <label for="email"> Inserisci Mail </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="inserisci mail"
-          />
-          <div>
-            <label for="policies"> Accetto il Trattamento dei dati </label>
-            <input type="checkbox" />
+
+            <article class="post flex-container" id="post2">
+              <div class="img-container"></div>
+              <h6 class="post-category">Mercato</h6>
+              <h3 class="post-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h3>
+              <footer>
+                <h6 class="author-name">Omar De Angelis</h6>
+              </footer>
+            </article>
+            <article class="post flex-container" id="post2">
+              <div class="img-container"></div>
+              <h6 class="post-category">Mercato</h6>
+              <h3 class="post-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h3>
+              <footer>
+                <h6 class="author-name">Omar De Angelis</h6>
+              </footer>
+            </article>
           </div>
-          <button type="submit">Iscriviti</button>
-        </form>
+        </div>
+        <div class="flex-container justify-center align-center cta">
+          Scopri di piu &#8594;
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-wrapper container flex-container">
+          <h3 class="section-title">Popolari</h3>
+          <div class="article-list column-sm flex-container align-center">
+            <article class="post flex-container" id="post2">
+              <div class="img-container"></div>
+              <h6 class="post-category">Mercato</h6>
+              <h3 class="post-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h3>
+              <footer>
+                <h6 class="author-name">Omar De Angelis</h6>
+              </footer>
+            </article>
+
+            <article class="post flex-container" id="post2">
+              <div class="img-container"></div>
+              <h6 class="post-category">Mercato</h6>
+              <h3 class="post-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h3>
+              <footer>
+                <h6 class="author-name">Omar De Angelis</h6>
+              </footer>
+            </article>
+            <article class="post flex-container" id="post2">
+              <div class="img-container"></div>
+              <h6 class="post-category">Mercato</h6>
+              <h3 class="post-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h3>
+              <footer>
+                <h6 class="author-name">Omar De Angelis</h6>
+              </footer>
+            </article>
+          </div>
+        </div>
+        <div class="flex-container justify-center align-center cta">
+          Scopri di piu &#8594;
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-wrapper container flex-container">
+          <h3 class="section-title">Scelti dalla Community</h3>
+          <div class="article-list column-sm flex-container align-center">
+            <article class="post flex-container" id="post2">
+              <div class="img-container"></div>
+              <h6 class="post-category">Mercato</h6>
+              <h3 class="post-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h3>
+              <footer>
+                <h6 class="author-name">Omar De Angelis</h6>
+              </footer>
+            </article>
+
+            <article class="post flex-container" id="post2">
+              <div class="img-container"></div>
+              <h6 class="post-category">Mercato</h6>
+              <h3 class="post-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h3>
+              <footer>
+                <h6 class="author-name">Omar De Angelis</h6>
+              </footer>
+            </article>
+            <article class="post flex-container" id="post2">
+              <div class="img-container"></div>
+              <h6 class="post-category">Mercato</h6>
+              <h3 class="post-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h3>
+              <footer>
+                <h6 class="author-name">Omar De Angelis</h6>
+              </footer>
+            </article>
+          </div>
+        </div>
+        <div class="flex-container justify-center align-center cta">
+          Scopri di piu &#8594;
+        </div>
+      </section>
+    </main>
+    <!--FINE ARTICOLI-->
+    <footer class="container">
+      <div class="community-container">
+        <h3>
+          Unisciti alla <br />
+          <span class="brand"> Community</span>
+        </h3>
+        <div class="grid-container">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
+            nesciunt. Cupiditate, alias.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequatur, saepe.
+          </p>
+          <div class="icons-wrapper flex-container align-center">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter-square"></i>
+          </div>
+          <form class="flex-container">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="inserisci la tua mail"
+            />
+            <button
+              type="submit"
+              class="submit-btn flex-container justify-center align-center"
+            >
+              Invia &#8594;
+            </button>
+          </form>
+        </div>
       </div>
-    </aside>
-    <footer>
-      <ul>
-        <li>Numeri di telefono: 9999</li>
-        <li>FAQ</li>
-        <li>Dove Siamo?</li>
-        <li>Aperti 7/7 dalle 9.00 alle 19</li>
-      </ul>
-      <small> Diritti riservati &copy; del mio blog </small>
+      <section class="footer-link-container flex-container column-md">
+        <img src="images/logo-h4l.png" alt="blog-logo" class="logo" />
+        <div class="grid-list">
+          <div>
+            <h6>Azienda</h6>
+            <ul>
+              <li>Numeri di telefono: 9999</li>
+              <li>FAQ</li>
+              <li>Dove Siamo?</li>
+              <li>Aperti 7/7 dalle 9.00 alle 19</li>
+            </ul>
+          </div>
+
+          <div>
+            <h6>Azienda</h6>
+            <ul>
+              <li>Numeri di telefono: 9999</li>
+              <li>FAQ</li>
+              <li>Dove Siamo?</li>
+              <li>Aperti 7/7 dalle 9.00 alle 19</li>
+            </ul>
+          </div>
+
+          <div>
+            <h6>Azienda</h6>
+            <ul>
+              <li>Numeri di telefono: 9999</li>
+              <li>FAQ</li>
+              <li>Dove Siamo?</li>
+              <li>Aperti 7/7 dalle 9.00 alle 19</li>
+            </ul>
+          </div>
+
+          <div>
+            <h6>Azienda</h6>
+            <ul>
+              <li>Numeri di telefono: 9999</li>
+              <li>FAQ</li>
+              <li>Dove Siamo?</li>
+              <li>Aperti 7/7 dalle 9.00 alle 19</li>
+            </ul>
+          </div>
+
+          <div>
+            <h6>Azienda</h6>
+            <ul>
+              <li>Numeri di telefono: 9999</li>
+              <li>FAQ</li>
+              <li>Dove Siamo?</li>
+              <li>Aperti 7/7 dalle 9.00 alle 19</li>
+            </ul>
+          </div>
+
+          <div>
+            <h6>Azienda</h6>
+            <ul>
+              <li>Numeri di telefono: 9999</li>
+              <li>FAQ</li>
+              <li>Dove Siamo?</li>
+              <li>Aperti 7/7 dalle 9.00 alle 19</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div
+        class="flex-container justify-center align-center container copyright"
+      >
+        <p>Diritti riservati &copy; del mio blog</p>
+      </div>
     </footer>
   </body>
 </html>
