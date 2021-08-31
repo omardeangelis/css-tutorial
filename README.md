@@ -1,4 +1,4 @@
-# Codice per Seguire la parte di Teoria
+# Codice Finale del Corso per la parte pratica
 Codice utilizzato per la parte teorica del corso di css. 
 
 ## Link utili e collegamenti 
