@@ -1,5 +1,5 @@
 # Codice Finale del Corso per la parte pratica
-Codice utilizzato per la parte teorica del corso di css. 
+Codice utilizzato per la parte pratica del corso di css. 
 
 ## Link utili e collegamenti 
 
